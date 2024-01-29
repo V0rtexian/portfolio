@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<title>2204904</title>
+<link id="stylesheet" rel="stylesheet" href="3-grid-layout.css">
+<script src="cw.js"></script>
+
+<main>
+    <header>
+        <h1 id="mainheading">Self Driving Car Algorithm</h1>
+    </header>
+
+    <article>
+        <img id=algorithm src="images/algorithm.png">
+        <section id=second>
+            <h2>Chosen Framework - Utilitarianism</h2>
+            <ul>
+                <li>Utilitarianism is a moral choice that has the greatest benefit for the majority of people</li>
+                <li>Reasoning</li>
+                <ul>
+                    <li>I find that it provides a clear path on any moral decision</li>
+                    <li>Due to the algorithm deciding the lowest danger weighting, it will result in the highest safety for the majority</li>
+                </ul>
+            </ul>
+            <h2>Rationale</h2>
+            <ul>
+                <li>Optimisations</li>
+                <ul>
+                    <li>By creating multiple decisions for road selection, the algorithm filters any extra data that would end up being redundant</li>
+                    <li>I created the algorithm to store the path to a node that has multiple options, as a result this will save time and resources from having to calculate that path again as it can head straight there</li>
+                </ul>
+                <p></p>
+                <li>Balance Between Distance and Safety</li>
+                <ul>
+                    <li>As the ethical framework I have chosen is utilitarianism; when it comes to safety, the algorithm decides on the safest route regardless of distance</li>
+                    <li>The distance is considered after the ethics of the decision. It will only have a significant impact on calculation if there are multiple safety weightings that are the lowest</li>
+                </ul>
+            </ul>
+
+        </section>
+        <section id=third>
+            <p>Click <b><a onclick="changeGraph()">here</a></b> to change graph demonstration showing the adaptability of my algorithm in a different town.</p>
+            <button onclick="changeToNext()">
+                <img id="graph" src="./images/first-graph/first_graph-0.png" alt="graph theory graph of provided town map with nodes and edges">
+            </button>
+            <p>The above demonstration shows how the algorithm calculates one of many possible paths. By clicking on the image, it will show the next iteration of the algorithm with an orange line.</p>
+        </section>
+    </article>
+
+    <footer>
+        <p>Prepared by Ryan Beckley (up2204904)</p>
+    </footer>
+</main>

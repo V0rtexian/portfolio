@@ -1,0 +1,16 @@
+assumptions
+assign distance weightings-
+red - 3
+amber - 2
+green - 1
+lowest number = safest
+
+
+
+Chosen Framework - Utilitarianism
+Reasoning;
+Utilitarianism is a moral choice that has the greatest benefit for the majority of people.
+I have chosen this framework as I find that it provides a clear path on any moral decision and 
+in regards to population density weighting for a self-driving car I believe that it has the lowest
+danger rating. This means that this will result in the highest safety for the majority of people.
+
