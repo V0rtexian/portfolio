@@ -99,7 +99,7 @@ def colourPick(validColours):
             else:
                 print(i)
 
-        colourSelection = input(f'\nPlease select colour {len(colours) + 1}: ')
+        colourSelection = input(f'\nPlease select colour {len(colours) + 1}: ').lower()
 
         if colourSelection in validColours and colourSelection not in colours:
             colours.append(colourSelection)
